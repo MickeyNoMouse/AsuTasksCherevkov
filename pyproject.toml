@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "asutasks"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail_Cherevkov <mikhailcherevkov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+pydantic = "^2.5.3"
+aiosqlite = "^0.19.0"
+sqlalchemy = "^2.0.25"
+alembic = "^1.13.1"
+psycopg = "^3.1.17"
+asyncpg = "^0.29.0"
+postgres = "^4.0"
+pydantic-settings = "^2.1.0"
+fastapi-sqlalchemy = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
