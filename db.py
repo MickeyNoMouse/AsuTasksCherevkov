@@ -1,10 +1,5 @@
-from sqlalchemy import create_engine, text, insert, select
-from sqlalchemy.ext.asyncio import create_async_engine
-import asyncio
+from sqlalchemy import create_engine
 from config import settings
-from models.model import Base, Employee
-
-
 
 ur_s = settings.POSTGRES_DATABASE_URLS
 #ur_a = settings.POSTGRES_DATABASE_URLA
