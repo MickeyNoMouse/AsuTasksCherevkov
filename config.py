@@ -36,4 +36,4 @@ settings.POSTGRES_DATABASE_URLA = f"postgresql+asyncpg:" \
                                 f"{settings.POSTGRES_PASSWORD}" \
                                 f"@{settings.POSTGRES_HOST}:" \
                                 f"{settings.POSTGRES_PORT}" \
-                                f"/{settings.POSTGRES_DB}" \
+                                f"/{settings.POSTGRES_DB}"
