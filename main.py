@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from public.employees import employees_router #, init_db
+import pytest
 
 #from db import create_tables
 
@@ -17,6 +18,7 @@ app.include_router(employees_router)
 #@app.on_event("shutdown")
 #def shutdown():
     #open("log.txt", mode="a").write(f'{datetime.utcnow()}: End\n')
+
 
 
 if __name__ == "__main__":
