@@ -8,6 +8,7 @@ Base = declarative_base()
 
 class Employee(Base):
     __tablename__ = "Employee"
+    __table_args__ = {'schema': 'public'}
     id = Column(Integer, Identity(start = 1), primary_key=True)
     name = Column(String, index=True, nullable=False)
     age = Column(Integer)
